@@ -1,0 +1,22 @@
+:root {
+}
+
+.menu {
+}
+
+.boton-regresar {
+    align-items: flex-start;
+    align-content: auto;
+    align-self: flex-start;
+    font-size: 30px;
+    justify-content: flex-start;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+}
+
+.boton-regresar:hover {
+    scale: 1.15 1.15;
+}
+
+.boton-regresar:active {
+}

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuPrincipal.uss?fileID=7433441132597879392&amp;guid=c1b5a216d3a98d046913f1edcf666bda&amp;type=3#MenuPrincipal"/>
+    <ui:VisualElement name="Menu" style="flex-grow: 1; background-position-x: center; background-position-y: bottom 0; min-height: auto; aspect-ratio: auto; align-content: auto;">
+        <ui:Label text="Tarea Unity" name="" parse-escape-sequences="true" focusable="true" class="titulo" style="font-size: 80px; -unity-font-style: bold; background-color: rgba(55, 55, 55, 0.24); justify-content: center; align-self: center; align-items: center; align-content: flex-start; -unity-text-align: upper-center;"/>
+        <ui:VisualElement name="VisualElement" class="botones" style="flex-grow: 1; background-color: rgba(97, 97, 97, 0.28); background-size: 100px 300%; align-self: center; justify-content: space-between; align-items: center; align-content: center; background-position-x: center; background-position-y: center; -unity-background-scale-mode: scale-and-crop; -unity-slice-type: sliced; width: 1042px; flex-direction: column; -unity-text-auto-size: none; aspect-ratio: auto; height: auto; max-height: 700px; padding-top: 30px; -unity-text-align: upper-left;">
+            <ui:Button text="Jugar" name="Jugar" class="boton-juego" style="color: rgb(255, 255, 255); -unity-font-style: bold; -unity-text-align: upper-center; justify-content: space-around; background-color: rgba(188, 188, 188, 0); white-space: nowrap; align-self: center; top: -60px;"/>
+            <ui:Button text="Ayuda" name="Ayuda" class="boton-juego" style="color: rgb(255, 255, 255); -unity-font-style: bold; background-color: rgba(188, 188, 188, 0); top: 20px;"/>
+            <ui:Button text="Creditos" name="Creditos" class="boton-juego" style="color: rgb(255, 255, 255); -unity-font-style: bold; top: 100px;"/>
+        </ui:VisualElement>
+        <ui:Label text="Pablo Alejandro Ortiz Montes (A01802689)" style="justify-content: space-around; align-self: flex-end; color: rgb(255, 255, 255); font-size: 45px; border-top-width: 100px;"/>
+    </ui:VisualElement>
+</ui:UXML>

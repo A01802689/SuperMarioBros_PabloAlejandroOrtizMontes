@@ -1,0 +1,60 @@
+.menu {
+}
+
+.titulo {
+    justify-content: center;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    width: 65%;
+    align-content: auto;
+    align-items: center;
+}
+
+.botones {
+    width: auto;
+    height: auto;
+    max-height: none;
+    background-position-x: center;
+    background-size: 100px 100%;
+    -unity-background-scale-mode: scale-and-crop;
+    border-top-width: 100px;
+    border-right-width: 100px;
+    border-bottom-width: 200px;
+    border-left-width: 100px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    transform-origin: center;
+    background-color: rgba(134, 134, 134, 0);
+    top: 40px;
+    justify-content: space-between;
+}
+
+.boton-juego {
+    width: 400px;
+    height: 100px;
+    align-self: center;
+    -unity-text-align: upper-center;
+    font-size: 70px;
+    bottom: auto;
+    justify-content: space-evenly;
+    background-image: url("project://database/Assets/Saurabh_Studio/UI%20button%20and%20hallowing%20element%20pack%205/Button%206/7.png?fileID=2800000&guid=d3dd507249881854fbaa9d44a29f0d89&type=3#7");
+    background-position-x: center;
+    background-size: 100% 200%;
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.35s;
+    transition-timing-function: ease-in-out;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    flex-shrink: 0;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.boton-juego:hover {
+    scale: 1.1 1.1 1.1;
+}
