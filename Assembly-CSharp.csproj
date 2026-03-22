@@ -50,11 +50,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Regresar.cs" />
+    <Compile Include="Assets\Scripts\DetectorColision.cs" />
     <Compile Include="Assets\Saurabh_Studio\Ex Scene\CreateObj.cs" />
     <Compile Include="Assets\Scripts\MoverPersonaje.cs" />
     <Compile Include="Assets\Scripts\AnimacionPersonaje.cs" />
+    <Compile Include="Assets\Scripts\SeguirMario.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\EstadoPersonaje.cs" />
+    <Compile Include="Assets\Scripts\MoverHongo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI\MenuPrincipal.uss" />
